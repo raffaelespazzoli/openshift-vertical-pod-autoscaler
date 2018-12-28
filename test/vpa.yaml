@@ -1,0 +1,10 @@
+apiVersion: autoscaling.k8s.io/v1beta1
+kind: VerticalPodAutoscaler
+metadata:
+  name: vpa-updater-test
+spec:
+  selector:
+    matchLabels:
+      app: vpa-updater
+  updatePolicy:
+    updateMode: "Off"

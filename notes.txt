@@ -1,0 +1,2 @@
+export KUBECONFIG=/home/rspazzol/git/openshift-enablement-exam/4.0/auth/kubeconfig
+oc login -u kubeadmin -p aVUd9-kBgmj-U8g9G-8dC3X
