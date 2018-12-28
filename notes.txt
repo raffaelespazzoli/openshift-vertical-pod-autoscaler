@@ -1,2 +1,27 @@
-export KUBECONFIG=/home/rspazzol/git/openshift-enablement-exam/4.0/auth/kubeconfig
-oc login -u kubeadmin -p aVUd9-kBgmj-U8g9G-8dC3X
+INFO Run 'export KUBECONFIG=/home/rspazzol/git/openshift-enablement-exam/4.0/auth/kubeconfig' to manage the cluster with 'oc', the OpenShift CLI. 
+INFO The cluster is ready when 'oc login -u kubeadmin -p iAsuT-ARs3u-EUai9-dPFog' succeeds (wait a few minutes). 
+INFO Access the OpenShift web-console here: https://console-openshift-console.apps.env1.raffa.xyz 
+INFO Login to the console with user: kubeadmin, password: 
+
+
+
+status:
+  conditions:
+  - lastTransitionTime: 2018-12-28T20:15:11Z
+    status: "True"
+    type: RecommendationProvided
+  recommendation:
+    containerRecommendations:
+    - containerName: updater
+      lowerBound:
+        cpu: 25m
+        memory: 262144k
+      target:
+        cpu: 25m
+        memory: 262144k
+      uncappedTarget:
+        cpu: 25m
+        memory: 262144k
+      upperBound:
+        cpu: 3179m
+        memory: "6813174422"
